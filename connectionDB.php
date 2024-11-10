@@ -1,8 +1,8 @@
 <?php 
-$servername = "localhost"; 
-$database = "desafiophp";
-$username = 'root';
-$password = '123456';
+$servername = ""; 
+$database = "";
+$username = "";
+$password = "";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
