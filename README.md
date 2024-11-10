@@ -15,11 +15,12 @@ Este projeto é um sistema desenvolvido em PHP para o cadastro e gerenciamento d
    - PHP: O PHP deve estar instalado e configurado corretamente com o Apache.
 
 1. Clone o Repositório Clone o repositório para sua máquina local:
+      https://github.com/Geronilton/Desafio_PHP.git
 
-2. Configuração do Apache: Coloque os arquivos do projeto na pasta de documentos do Apache, por exemplo, htdocs se estiver utilizando o XAMPP.
+3. Configuração do Apache: Coloque os arquivos do projeto na pasta de documentos do Apache, por exemplo, htdocs se estiver utilizando o XAMPP.
    
-3. Configuração do Banco de Dados: Rode o ScripDb no mySql workbench para criar o banco de dados. script disponivel no repositorio.
-4. Configuração do Arquivo de Conexão: Modifique connectionDb, e as configurações
+4. Configuração do Banco de Dados: Rode o ScripDB no mySql workbench para criar o banco de dados. script disponivel no repositorio.
+5. Configuração do Arquivo de Conexão: Modifique connectionDb, e as configurações
    
 $servername = ""; 
 $database = "";
