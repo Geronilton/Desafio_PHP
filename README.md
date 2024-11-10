@@ -1,4 +1,4 @@
-##Sistema de Cadastro de Associados##
+## Sistema de Cadastro de Associados
 
 Este projeto é um sistema desenvolvido em PHP para o cadastro e gerenciamento de associados. Utiliza o Apache como servidor web, MySQL como banco de dados e o MySQL Workbench para gerenciamento e visualização do banco.
 
