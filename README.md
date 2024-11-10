@@ -2,17 +2,17 @@
 
 Este projeto é um sistema desenvolvido em PHP para o cadastro e gerenciamento de associados. Utiliza o Apache como servidor web, MySQL como banco de dados e o MySQL Workbench para gerenciamento e visualização do banco.
 
-##Tecnologias Utilizadas##
-- PHP: Linguagem de programação utilizada para o desenvolvimento do sistema.
-- Apache: Servidor web utilizado para servir as páginas PHP.
-- MySQL: Banco de dados utilizado para armazenar as informações dos associados e das anuidades.
-- MySQL Workbench: Ferramenta utilizada para gerenciar e administrar o banco de dados MySQL.
+## Tecnologias Utilizadas
+   - PHP: Linguagem de programação utilizada para o desenvolvimento do sistema.
+   - Apache: Servidor web utilizado para servir as páginas PHP.
+   - MySQL: Banco de dados utilizado para armazenar as informações dos associados e das anuidades.
+   - MySQL Workbench: Ferramenta utilizada para gerenciar e administrar o banco de dados MySQL.
 
-##Instalação##
-##Requisitos##
-- Apache: Certifique-se de que o Apache está instalado e em execução.
-- MySQL: O banco de dados MySQL precisa estar instalado.
-- PHP: O PHP deve estar instalado e configurado corretamente com o Apache.
+## Instalação
+## Requisitos
+   - Apache: Certifique-se de que o Apache está instalado e em execução.
+   - MySQL: O banco de dados MySQL precisa estar instalado.
+   - PHP: O PHP deve estar instalado e configurado corretamente com o Apache.
 
 1. Clone o Repositório Clone o repositório para sua máquina local:
 
