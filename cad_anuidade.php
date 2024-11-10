@@ -2,17 +2,17 @@
     include 'connectionDB.php';
 
     $id_associado = $_POST["id_associado"];
-    $nome = $_REQUEST["nome"];
+    $titulo = $_REQUEST["titulo"];
     $data_vencimento = $_REQUEST["data_vencimento"];
     $status_pagamento = $_REQUEST["status_pagamento"];
 
     
-    $sql = "INSERT INTO anuidade (nome, data_vencimento, status_pagamento, id_associado) 
-    VALUES ('$nome', '$data_vencimento', '$status_pagamento', '$id_associado')";
+    $sql = "INSERT INTO anuidade (titulo, data_vencimento, status_pagamento, id_associado) 
+    VALUES ('$titulo', '$data_vencimento', '$status_pagamento', '$id_associado')";
     
     if ($conn->query($sql) === TRUE) {
         echo "Novo registro inserido com sucesso!";
-        header("Location: listarAssociado.php");
+        header("Location: index.php");
     } else {
         echo "Erro: " . $sql . "<br>" . $conn->error;
     }
