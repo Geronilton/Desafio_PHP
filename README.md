@@ -19,7 +19,8 @@ Este projeto é um sistema desenvolvido em PHP para o cadastro e gerenciamento d
 2. Configuração do Apache: Coloque os arquivos do projeto na pasta de documentos do Apache, por exemplo, htdocs se estiver utilizando o XAMPP.
    
 3. Configuração do Banco de Dados: Rode o ScripDb no mySql workbench para criar o banco de dados. script disponivel no repositorio.
-4. Configuração do Arquivo de Conexão: Modifique connectionDb.
+4. Configuração do Arquivo de Conexão: Modifique connectionDb, e as configurações
+   
 $servername = ""; 
 $database = "";
 $username = '';
